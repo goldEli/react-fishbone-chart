@@ -5,13 +5,13 @@
 * fishbone chart for react
 * 制作npm包并发布
 
-## 基本用法
+## 用法
 
 ```
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
-import { Button, FishboneChart } from 'react-fishbone-chart'
+import { FishboneChart } from 'react-fishbone-chart'
 const data = {
     "name": "Quality",
     "children": [
@@ -24,54 +24,10 @@ const data = {
         ]
       },
       {"name": "Method"},
-      {
-        "name": "Material",
-        "children": [
-          {"name": "Masonite"},
-          {
-            "name": "Marscapone",
-            "children": [
-              {"name": "Malty"},
-              {
-                "name": "Minty",
-                "children": [
-                  {"name": "spearMint"},
-                  {"name": "pepperMint"}
-                ]
-              }
-            ]
-          },
-          {"name": "Meat",
-            "children": [
-              {"name": "Mutton"}
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Man Power",
-        "children": [
-          {"name": "Manager"},
-          {"name": "Master's Student"},
-          {"name": "Magician"},
-          {"name": "Miner"},
-          {"name": "Magister", "children": [
-              {"name": "Malpractice"}
-          ]}
-        ]
-      },
-      {
-        "name": "Measurement",
-        "children": [
-          {"name": "Malleability"}
-        ]
-      },
-      {
-        "name": "Milieu",
-        "children": [
-          {"name": "Marine"}
-        ]
-      }
+      {"name": "Material",},
+      {"name": "Man Power",},
+      {"name": "Measurement",},
+      {"name": "Milieu",}
     ]
 }
 
